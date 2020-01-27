@@ -1,4 +1,4 @@
-require 'pp'
+require 'pry'
 
 def game_hash
     {
@@ -7,7 +7,7 @@ def game_hash
         :colors => ["Black", "White"], #game_hash[:home][:colors]
         :players => [                  #game_hash[:home][:players]
           {
-          :player_name => "Alan Anderson", #game_hash[:home][:players][:player_naem]
+          :player_name => "Alan Anderson", #game_hash[:home][:players][:player_name]
           :number => 0,
           :shoe => 16, 
           :points => 22,
